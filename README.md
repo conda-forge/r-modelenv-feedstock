@@ -1,11 +1,11 @@
-About r-modelenv
-================
+About r-modelenv-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-modelenv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tidymodels/modelenv
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-modelenv-feedstock/blob/main/LICENSE.txt)
 
 Summary: An developer focused, low dependency package in 'tidymodels' that provides functions to register how models are to be used. Functions to register models are complimented with accessor functions to retrieve registered model information to aid in model fitting and error handling.
 
