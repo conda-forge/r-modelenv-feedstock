@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modelenv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modelenv/modelenv_{{ version }}.tar.gz
-  sha256: b119754ab9b338e7e2be8849c634e715226dbc3f0a79b1e5c7567d27f41accde
+  sha256: 74e10e97ef379c6381bd09df4d03f799c9005d100c64ae99d9b6c8b6ab9e1bc1
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
